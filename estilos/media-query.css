@@ -11,6 +11,7 @@
 
     section#login {
         width: 85vw;
+        height: 300px;
     }
 
     section#login > div.imagem {
@@ -31,14 +32,18 @@
     html {
         background-color: #2E2E2E;
     }
+    
     body {
         background-image: conic-gradient(rgba(255, 0, 0, 0.364), rgba(255, 255, 0, 0.552), rgba(0, 128, 0, 0.501),rgba(255, 0, 0, 0.364));
     }
+    
     section#login {
         width: 992px;
+        height: 320px;
     }
 
     section#login > div.imagem {
+        background-position: center center;
         float: right;
         width: 50%;
         height: 100%;
